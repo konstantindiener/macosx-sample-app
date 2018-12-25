@@ -27,7 +27,7 @@
                 <configuration>
                     <mainClass>de.konstantindiener.macosx.sampleapp.Main</mainClass>
                     <jrePath>/Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk</jrePath>
-                    <bundleName>Sample Open File With App</bundleName>
+                    <bundleName>Sample Text Viewer</bundleName>
                     <iconFile>src/main/macos/MySampleApp.icns</iconFile>
                 </configuration>
                 <executions>
