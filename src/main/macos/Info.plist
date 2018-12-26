@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>CFBundleDevelopmentRegion</key>
+    <string>English</string>
+    <key>CFBundleExecutable</key>
+    <string>JavaAppLauncher</string>
+    <key>CFBundleIconFile</key>
+    <string>MySampleApp.icns</string>
+    <key>CFBundleIdentifier</key>
+    <string>de.konstantindiener.macosx.sampleapp.Main</string>
+    <key>CFBundleDisplayName</key>
+    <string>Sample Text Viewer</string>
+    <key>CFBundleInfoDictionaryVersion</key>
+    <string>6.0</string>
+    <key>CFBundleName</key>
+    <string>Sample Text Viewer</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0-SNAPSHOT</string>
+    <key>CFBundleSignature</key>
+    <string>????</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>NSHumanReadableCopyright</key>
+    <string></string>
+    <key>NSHighResolutionCapable</key>
+    <true/>
+    <key>NSSupportsAutomaticGraphicsSwitching</key>
+    <true/>
+    <key>JVMRuntime</key>
+    <string>JRE</string>
+    <key>JVMRuntimePath</key>
+    <string></string>
+    <key>JVMMainClassName</key>
+    <string>de.konstantindiener.macosx.sampleapp.Main</string>
+    <key>JVMClassPaths</key>
+    <array>
+      <string>de/konstantindiener/macosx/macosx-sample-app/1.0-SNAPSHOT/macosx-sample-app-1.0-SNAPSHOT.jar</string>
+    </array>
+    <key>JVMVersion</key>
+    <string>1.6+</string>
+    <key>JVMOptions</key>
+    <array>
+            <string>-Dapple.laf.useScreenMenuBar=true</string>
+      <string>-Xdock:name=Sample Text Viewer</string>
+    </array>
+    <key>JVMArguments</key>
+    <array/>
+    <key>LauncherWorkingDirectory</key>
+    <string>$APP_ROOT</string>
+    <key>UIDocumentPickerSupportedFileTypes</key>
+    <array>
+        <string>txt</string>
+    </array>
+  </dict>
+</plist>
